@@ -1,0 +1,38 @@
+header {
+    padding: 30px 0;
+    box-shadow: 10px 5px 10px 0 var(--border-color);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.lang-select {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    
+}
+
+.appeal {
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: var(--green-color);
+}
+
+.theme-btn {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    border: none;
+    font-size: 25px;
+}

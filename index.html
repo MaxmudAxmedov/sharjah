@@ -1,14 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>17-dars</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <!-- <link rel="icon" type="image/png" href="./assets/image/Sharjah logo.png"> -->
+        <title>Sharjah school</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header">
+                    <a href="./index.html">
+                        <img
+                            src="./assets/image/Sharjah logo.png"
+                            width="200"
+                            alt="site logo"
+                        />
+                    </a>
 
+                    <div class="header-right">
+                        <select id="lang-select" class="lang-select">
+                            <option value="uz">🇺🇿 UZB</option>
+                            <option value="en">🇬🇧 ENG</option>
+                            <option value="ru">🇷🇺 RUS</option>
+                        </select>
 
-</body>
+                        <button
+                            class="theme-btn"
+                            data-translate="dark-mode"
+                        ></button>
+                        <a
+                            href="#appeal"
+                            data-translate="appeal"
+                            class="appeal"
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <section class="hero-section">
+                <div class="container">
+                    <div class="hero">
+                        <div class="hero-content">
+                            <p data-translate="hero-info"></p>
+                            <h1>
+                                <p class="site-title">
+                                    Sharjah International School
+                                </p>
+                                <p data-translate="hero-title"></p>
+                            </h1>
+                        </div>
+
+                        <img
+                            class="hero-img"
+                            src="./assets/image/hero-img.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div class="modal">
+            <div class="modal-wrapper">
+                <button class="modal-close">X</button>
+                <form class="modal-form">
+                    <label for="name" data-translate="name"></label>
+                    <input
+                        id="name"
+                        type="text"
+                        class="modal-input"
+                        placeholder="Enter your name"
+                    />
+
+                    <label for="phone" data-translate="phone"></label>
+                    <input
+                        id="phone"
+                        type="tel"
+                        class="modal-input"
+                        placeholder="Enter your phone number"
+                        value="+998"
+                    />
+                    <button class="modal-btn" data-translate="submit"></button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
 </html>

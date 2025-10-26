@@ -1,0 +1,22 @@
+// .hero-section {}
+
+.hero {
+    display: flex;
+    padding: 80px 0;
+}
+
+.hero-content {
+    width: 100%;
+    max-width: 800px;
+}
+
+.hero-img {
+    width: 55%;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+
+.site-title {
+    color: green;
+    font-size: 55px;
+    margin: 0;
+}

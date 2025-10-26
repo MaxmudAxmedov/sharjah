@@ -1,2 +1,15 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #151b24;
+    --primary-color: #007bff;
+    --border-color: #b5b5b5;
+    --green-color: rgb(13, 75, 13);
+}
 
-
+.dark-mode {
+    --bg-color: #151b24;
+    --text-color: #ffffff;
+    --primary-color: #4a90e2;
+    --border-color: #484848;
+    --green-color: rgb(13, 75, 13);
+}
