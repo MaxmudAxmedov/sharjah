@@ -38,6 +38,13 @@ function updateTranslations() {
         el.textContent = translations[key] || key;
     });
 
+    document
+        .querySelectorAll("[data-translate-placeholder]")
+        .forEach((input) => {
+            const key = input.getAttribute("data-translate-placeholder");
+            input.placeholder = translations[key];
+        });
+
     const isDark = body.classList.contains("dark-mode");
     themeToggle.textContent = isDark ? "☀️" : "🌙";
 }

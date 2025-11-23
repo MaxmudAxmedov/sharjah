@@ -4,5 +4,6 @@
     "appeal": "Ariza qoldirish",
     "name": "Ism",
     "phone": "Telefon raqam",
-    "submit": "Yuborish"
+    "submit": "Yuborish",
+    "name_placeholder":"Ismingizni kiriting"
 }

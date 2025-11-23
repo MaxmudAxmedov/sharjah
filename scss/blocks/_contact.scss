@@ -1,0 +1,22 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.contact-info {
+    width: 350px;
+}
+
+.contact-form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form input {
+    margin-bottom: 20px;
+    margin-top: 8px;
+}

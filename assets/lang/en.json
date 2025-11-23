@@ -4,5 +4,6 @@
     "appeal": "Submit Application",
     "name": "Name",
     "phone": "Phone number",
-    "submit": "Send"
+    "submit": "Send",
+    "name_placeholder":"Enter your name"
 }

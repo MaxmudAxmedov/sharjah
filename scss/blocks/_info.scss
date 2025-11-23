@@ -1,0 +1,23 @@
+.info-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.info-list--item {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    margin-bottom: 12px;
+    color: var(--text-color);
+    /* yoki */
+    --icon-color: #10b981;
+}
+.info-list--item img {
+    color: #ec4899;   /* faqat ikonka rangi */
+}

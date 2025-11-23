@@ -1,0 +1,19 @@
+footer{
+    background-color: var(--footer-bg);
+    margin-top: 60px;
+}
+.footer {
+    padding: 20px 0;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-info{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
